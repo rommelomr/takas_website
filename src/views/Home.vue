@@ -1,4 +1,4 @@
-<template>
+  <template>
   <v-container fluid>
     <!--v-row>
       <v-col
@@ -61,15 +61,12 @@
           :key="i"
           :src="item.src"
         ></v-carousel-item>
+
+        
       </v-carousel>
     </v-row>
   </v-container>  
 </template>
-<style>
-
-  
-
-</style>
 <script>
 
   export default {
@@ -78,10 +75,10 @@
       return {
         items:[{
 
-          src: require('../assets/carrousel_1.jpg'),
+          src: window.screen.width >= 994 ? require('../assets/carrousel_1.jpg') : require('../assets/carrousel_1_phone.jpg'),
         },
         {
-          src: require('../assets/carrousel_2.jpg'),
+          src: window.screen.width >= 994 ? require('../assets/carrousel_2.jpg') : require('../assets/carrousel_2_phone.jpg'),
         }        
         ]
       }

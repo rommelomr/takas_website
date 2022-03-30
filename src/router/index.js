@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import ContactUs from '../views/ContactUs.vue'
 import TermsAndConditions from '../views/TermsAndConditions.vue'
 import InformationUsePolitics from '../views/InformationUsePolitics.vue'
+import FAQS from '../views/FAQS.vue'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,12 @@ const routes = [
     path: '/politicas_de_uso_de_datos',
     name: 'InformationUsePolitics',
     component: InformationUsePolitics
+  },
+
+  {
+    path: '/preguntas_frecuentes',
+    name: 'FAQS',
+    component: FAQS
   },
 
   {

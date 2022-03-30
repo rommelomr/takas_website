@@ -2,7 +2,7 @@
     <v-container class="white--text">
         <v-row>
             <v-col cols="12" align="center">
-                <h1>Contáctanos</h1>
+                <h1 class="medium-title">Contáctanos</h1>
             </v-col>
         </v-row>
         <v-row>
@@ -15,7 +15,7 @@
                 <img width="40" src="@/assets/correo.png" class="mr-8">
             </v-col>
             <v-col cols="6" align="left">
-                123412341234
+                olokutisas@gmail.com
             </v-col>
         </v-row>
         <v-row>
@@ -23,15 +23,15 @@
                 <img width="40" src="@/assets/whatsapp.png" class="mr-8">
             </v-col>
             <v-col cols="6" align="left">
-                123412341234
+                +57 (310) 442 6409
             </v-col>
         </v-row>
         <v-row>
             <v-col cols="6" align="right">
-                <img width="40" src="@/assets/telefono.png" class="mr-8">
+                <img width="40" src="@/assets/location.png" class="mr-8">
             </v-col>
             <v-col cols="6" align="left">
-                123412341234
+                Calle 93 no 13-32, Bogotá, Colombia
             </v-col>
         </v-row>
         
