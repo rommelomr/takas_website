@@ -193,18 +193,8 @@
           </v-col>
           <v-col cols="12" md="6">
             <v-row>
-              <v-col cols="6" class="d-flex align-end justify-end">
-                <span class="white--text">Elaborado por:</span>
-              </v-col>
-              <v-col cols="6" aligh="left">
-                <v-img
-                  height="83"
-                  width="110"
-                  src="@/assets/olokuti.png">
-                </v-img>
-              </v-col>
               <v-col cols="12" align="center">
-                La empresa Olokuti SAS es propietaria de la marca Takas
+                Copyright © 2022 LAP Services. Todos los derechos reservados.
               </v-col>
             </v-row>
           </v-col>
@@ -350,6 +340,9 @@
     },
     components: {
       'SocialNetworks':SocialNetworks
+    },
+    mounted(){
+      
     },
     methods:{
       redirect(route){
